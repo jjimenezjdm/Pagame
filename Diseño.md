@@ -1,4 +1,4 @@
-#Aplicación
+# Aplicación
 
 A continuación, se detalla el diseño de la aplicación.
 La pantalla inicial de la aplicación está compuesta por un botón de inicio de sesión a través de google.
@@ -34,6 +34,6 @@ Para finalizar, si pulsamos sobre cualquier cuenta, nos aparecerá un detalle de
 
 Pulsando en los tres círculos blancos que aparecen en cualquiera de las tres pantallas principales de la que consta la aplicación, tendremos la opción de cerrar sesión de la aplicación.
 
-##Autor
+## Autor
 
 Judit Jiménez Jiménez
