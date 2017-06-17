@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/UserInfo"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            >
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/com_facebook_profile_picture_blank_square"
+                android:id="@+id/photoUser"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nombre"
+                android:textSize="15sp"
+                android:text="adaLovelace@gmail.com"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/photoUser"
+                android:layout_marginStart="17dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/debeDineros"
+                android:textSize="15sp"
+                android:layout_marginEnd="22dp"
+                android:layout_below="@+id/nombre"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:text="TOTAL: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:layout_alignParentTop="true"
+                android:layout_alignEnd="@+id/debeDineros" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/UserInfo"
+        android:layout_height="match_parent"
+        android:id="@+id/RecyclerViewAmigos"></android.support.v7.widget.RecyclerView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="66dp"
+        android:layout_height="71dp"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_input_add"
+        android:id="@+id/buttonAdd"
+        android:tint="@android:color/white"
+        app:elevation="10dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        app:fabSize="normal"/>
+
+</RelativeLayout>

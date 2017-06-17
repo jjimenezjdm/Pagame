@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?attr/listPreferredItemHeight"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="8dp">
+
+
+    <TextView
+        android:id="@+id/descripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="estado"
+        tools:text="Liquidaste la cuenta de "
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ada Lovelace"
+        android:layout_alignLeft="@+id/descripcion"
+        android:layout_below="@+id/descripcion"
+        android:textAppearance="?attr/textAppearanceListItem"
+        tools:text="Ada Lovelace"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/debes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:text="Debes"
+        tools:text="Debes"
+        android:textSize="18sp"
+        android:fontFamily="monospace" />
+
+    <TextView
+        android:id="@+id/money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/debes"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:text="155 €"
+        tools:text="155 €"
+        android:textSize="18sp"
+        android:fontFamily="monospace" />
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/date"
+        android:layout_margin="5dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="15-05-2015"
+        tools:text="15-05-2015"
+        android:textSize="18sp"
+        android:fontFamily="monospace"
+        android:layout_below="@+id/nombre"
+        android:layout_alignStart="@+id/view2" />
+</RelativeLayout>

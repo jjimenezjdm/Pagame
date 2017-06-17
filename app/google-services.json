@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1012448918845",
+    "firebase_url": "https://pagame-eec3c.firebaseio.com",
+    "project_id": "pagame-eec3c",
+    "storage_bucket": "pagame-eec3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012448918845:android:cb2b4a628abc6fdf",
+        "android_client_info": {
+          "package_name": "com.example.yosoy.pagame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1012448918845-vh9pfsd1tavtopvd2k7j1lbdio6ltlgb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yosoy.pagame",
+            "certificate_hash": "19a078f1ccbf8a1a3f06267964c90a6fa6af8e05"
+          }
+        },
+        {
+          "client_id": "1012448918845-hkpvdoee21qs3urbucpcfh3h29l4mhos.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkZe8zaygqdeR4giTtsijN7uzP7vH38GM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1012448918845-hkpvdoee21qs3urbucpcfh3h29l4mhos.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
